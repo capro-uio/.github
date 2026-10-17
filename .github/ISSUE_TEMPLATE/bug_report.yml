@@ -1,0 +1,36 @@
+name: Bug report
+description: Something is not working as documented
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please do not include sensitive or personal data
+        in this issue — it is public.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what did you get instead?
+    validations:
+      required: true
+  - type: textarea
+    id: reprex
+    attributes:
+      label: Reproducible example
+      description: >
+        The smallest piece of code that shows the problem. For R, a
+        [reprex](https://reprex.tidyverse.org/) is ideal.
+      render: r
+    validations:
+      required: true
+  - type: textarea
+    id: session
+    attributes:
+      label: Session information
+      description: >
+        For R projects, the output of `sessionInfo()`. For web projects, your
+        browser and version.
+      render: text
+    validations:
+      required: false

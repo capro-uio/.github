@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Work with CAPRO
+    url: https://app.reclaim.ai/m/capro/initiating-talks
+    about: Book a consultation about data capture, processing or infrastructure for your project.
+  - name: Report a security vulnerability
+    url: https://github.com/capro-uio/.github/blob/main/SECURITY.md
+    about: Please report security problems privately rather than as a public issue.
