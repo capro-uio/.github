@@ -40,33 +40,28 @@ something a researcher at UiO needed and could not find elsewhere.
 | **Reproducibility** | Containerised workflows, pinned environments, and analysis that still runs next year. |
 | **Training** | Hands-on workshops in R, project management and modern scientific workflows. |
 
-## Tools we maintain
+## The organisation at a glance
 
-**R packages** — install from our [R-universe](https://capro-uio.r-universe.dev/):
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=capro-uio&theme=github_dark">
+    <img alt="CAPRO on GitHub: total stars, repositories, forks and open issues across the organisation" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=capro-uio&theme=default" width="340">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=capro-uio&theme=github_dark">
+    <img alt="Languages used across CAPRO repositories, led by R" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=capro-uio&theme=default" width="340">
+  </picture>
+</p>
+
+Our repositories are listed below — most of our R packages install straight from
+our [R-universe](https://capro-uio.r-universe.dev/):
 
 ```r
 install.packages(
-  c("nettskjemar", "tsdrtools", "uiothemes", "neuromat"),
+  "<package>",
   repos = c("https://capro-uio.r-universe.dev", "https://cloud.r-project.org")
 )
 ```
-
-| Package | What it does |
-|---|---|
-| [**nettskjemar**](https://github.com/capro-uio/nettskjemar) | Work with the University of Oslo's Nettskjema survey API from R. |
-| [**tsdrtools**](https://github.com/capro-uio/tsdrtools) | Install R packages inside TSD, UiO's closed secure server. |
-| [**uiothemes**](https://github.com/capro-uio/uiothemes) | UiO branding for plots, documents and reports. |
-| [**neuromat**](https://github.com/capro-uio/neuromat) | Build model matrices for neuroimaging analyses. |
-| [**nva**](https://github.com/capro-uio/nva) | Interface to the Nasjonalt Vitenarkiv (NVA) API. |
-| [**ebrains.kg**](https://github.com/capro-uio/ebrains.kg) | Interface to the EBRAINS Knowledge Graph API. |
-
-**Other projects:**
-
-| Project | What it does |
-|---|---|
-| [**jspsych-studio**](https://github.com/capro-uio/jspsych-studio) | No-code builder for jsPsych experiments — author in the browser, export readable jsPsych you can host anywhere. |
-| [**capro.pkgdown**](https://github.com/capro-uio/capro.pkgdown) | pkgdown template giving our R packages a consistent look. |
-| [**js_datainspector**](https://github.com/capro-uio/js_datainspector) | Small web app for correcting incoming Nettskjema data without touching the originals. |
 
 ## Working with us
 
