@@ -12,10 +12,8 @@
 
 <p align="center">
   <a href="https://www.capro.dev/">Website</a> &nbsp;·&nbsp;
-  <a href="https://www.capro.dev/#services">Services</a> &nbsp;·&nbsp;
-  <a href="https://www.capro.dev/#team">Team</a> &nbsp;·&nbsp;
-  <a href="https://capro-uio.r-universe.dev/">R-universe</a> &nbsp;·&nbsp;
-  <a href="https://app.reclaim.ai/m/capro/initiating-talks">Book a consultation</a>
+  <a href="https://www.capro.dev/services">Services</a> &nbsp;·&nbsp;
+  <a href="https://www.capro.dev/team">Team</a> &nbsp;·&nbsp;
 </p>
 
 ---
